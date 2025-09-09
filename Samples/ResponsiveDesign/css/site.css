@@ -1,0 +1,13 @@
+﻿body {
+    margin: calc(var(--site-padding) / 2);
+}
+
+.row > .col > * {
+    padding: var(--site-padding);
+    text-align: center;
+    border: 1px solid black;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: calc(var(--site-padding) / 2);
+}
