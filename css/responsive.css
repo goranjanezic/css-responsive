@@ -1,0 +1,147 @@
+﻿.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .row > .col.col-auto {
+        flex: auto;
+    }
+
+@media only screen and (max-width: 768px) {
+    .row > .col {
+        width: 100%;
+    }
+
+        .row > .col.col-sm-10 {
+            width: 10%;
+        }
+
+        .row > .col.col-sm-20 {
+            width: 20%;
+        }
+
+        .row > .col.col-sm-30 {
+            width: 30%;
+        }
+
+        .row > .col.col-sm-40 {
+            width: 40%;
+        }
+
+        .row > .col.col-sm-50 {
+            width: 50%;
+        }
+
+        .row > .col.col-sm-60 {
+            width: 60%;
+        }
+
+        .row > .col.col-sm-70 {
+            width: 70%;
+        }
+
+        .row > .col.col-sm-80 {
+            width: 80%;
+        }
+
+        .row > .col.col-sm-90 {
+            width: 90%;
+        }
+
+        .row > .col.col-sm-100 {
+            width: 100%;
+        }
+}
+
+@media only screen and (min-width: 769px) {
+    .row > .col {
+        width: 50%;
+    }
+
+        .row > .col.col-md-10 {
+            width: 10%;
+        }
+
+        .row > .col.col-md-20 {
+            width: 20%;
+        }
+
+        .row > .col.col-md-30 {
+            width: 30%;
+        }
+
+        .row > .col.col-md-40 {
+            width: 40%;
+        }
+
+        .row > .col.col-md-50 {
+            width: 50%;
+        }
+
+        .row > .col.col-md-60 {
+            width: 60%;
+        }
+
+        .row > .col.col-md-70 {
+            width: 70%;
+        }
+
+        .row > .col.col-md-80 {
+            width: 80%;
+        }
+
+        .row > .col.col-md-90 {
+            width: 90%;
+        }
+
+        .row > .col.col-md-100 {
+            width: 100%;
+        }
+}
+
+@media only screen and (min-width: 1024px) {
+    .row > .col,
+    .row > .col.col-auto {
+        width: auto;
+    }
+
+        .row > .col.col-lg-10 {
+            width: 10%;
+        }
+
+        .row > .col.col-lg-20 {
+            width: 20%;
+        }
+
+        .row > .col.col-lg-30 {
+            width: 30%;
+        }
+
+        .row > .col.col-lg-40 {
+            width: 40%;
+        }
+
+        .row > .col.col-lg-50 {
+            width: 50%;
+        }
+
+        .row > .col.col-lg-60 {
+            width: 60%;
+        }
+
+        .row > .col.col-lg-70 {
+            width: 70%;
+        }
+
+        .row > .col.col-lg-80 {
+            width: 80%;
+        }
+
+        .row > .col.col-lg-90 {
+            width: 90%;
+        }
+
+        .row > .col.col-lg-100 {
+            width: 100%;
+        }
+}
