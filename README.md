@@ -11,12 +11,13 @@ just download the css folder.
 Example of 'responsive.css' usage. The full example is in the 'Samples/ResponsiveDesign' section.
 
 ```html
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Demo</title>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="../../css/responsive.css" />
     <link rel="stylesheet" href="css/site.css" />
@@ -40,6 +41,7 @@ Example of 'responsive.css' usage. The full example is in the 'Samples/Responsiv
         </div>
     </div>
 </body>
+
 </html>
 ```
 
